@@ -38,6 +38,7 @@ public class Main {
     static boolean atender(){
         return new Random().nextInt(3)==1;
     }
+
     static void imprimirSelecionados(){
         String[] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO"};
         int io=0;
